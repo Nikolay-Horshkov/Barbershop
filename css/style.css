@@ -12,9 +12,19 @@ h5,
 h6 {
   margin: 0;
 }
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
 ul {
   margin: 0;
   padding-left: 0;
+}
+.list {
+  text-decoration: none;
+  list-style: none;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -24,39 +34,61 @@ img {
   max-width: 100%;
   height: auto;
 }
-ul {
-  text-decoration: none;
-}
 /* font-style: normal; */
 .container {
   width: 100%;
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+.header-logo {
+  margin-right: 130px;
 }
 .nav-header {
+  display: flex;
+  align-items: center;
 }
-.container {
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .navigation {
+  display: flex;
 }
 .navigation-btns {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
 }
 .nav-btn {
+  text-decoration: none;
 }
 .nav-address {
 }
 .nav-address-list {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 .nav-address-item {
+  text-transform: uppercase;
 }
 .booking-btn {
 }
 .hero-section {
 }
 .hero-list {
+  list-style: none;
 }
 .hero-item {
+  list-style: none;
+  text-decoration: none;
 }
 .hero-text {
 }

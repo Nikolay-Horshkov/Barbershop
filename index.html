@@ -15,22 +15,32 @@
   </head>
   <body>
     <header class="nav-header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="navigation">
           <a href="#">
-            <img src="./image/Logo.svg" alt="logo" />
+            <svg class="header-logo" width="69" height="55">
+              <use href="./image/icons.svg#icon-barber-logo"></use>
+            </svg>
           </a>
           <ul class="navigation-btns">
-            <li class="nav-btn"><a href="#">About</a></li>
-            <li class="nav-btn"><a href="#">Services and prices</a></li>
-            <li class="nav-btn"><a href="#">Barbers</a></li>
-            <li class="nav-btn"><a href="#">Contacts</a></li>
+            <li>
+              <a class="nav-btn" href="#">About</a>
+            </li>
+            <li>
+              <a class="nav-btn" href="#">Services and prices</a>
+            </li>
+            <li>
+              <a class="nav-btn" href="#">Barbers</a>
+            </li>
+            <li>
+              <a class="nav-btn" href="#">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="nav-address">
           <ul class="nav-address-list">
-            <li class="nav-address-item">
-              <a href="tel:+380441111111">tel:+380441111111</a>
+            <li>
+              <a class="nav-address-item" href="tel:+380441111111">tel:+380441111111</a>
             </li>
             <li class="nav-address-item">
               <button class="booking-btn" type="button">Online-booking</button>
@@ -40,15 +50,16 @@
       </div>
     </header>
     <main>
-      <section class="hero-section">
+      <!-- section1 -->
+      <section class="hero-section container">
         <ul class="hero-list">
-          <li class="hero-item">
-            <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+          <li>
+            <a class="hero-item" href="#" target="_blank" rel="noopener noreferrer nofollow"
               >instagram</a
             >
           </li>
-          <li class="hero-item">
-            <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+          <li>
+            <a class="hero-item" href="#" target="_blank" rel="noopener noreferrer nofollow"
               >you tube</a
             >
           </li>
@@ -60,7 +71,7 @@
           We work quickly, carefully and with style.
         </p>
       </section>
-      <section class="about-section">
+      <section class="about-section container">
         <ul class="about-list">
           <li class="about-item">
             <img
